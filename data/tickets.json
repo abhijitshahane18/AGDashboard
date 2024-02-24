@@ -1,0 +1,79 @@
+{
+    "tickets": [
+        {
+            "message": "Success",
+            "body": {
+                "metadata": {
+                    "id": "1",
+                    "conversationId": "ff16e5ff254006090e5e05fc1",
+                    "initialAppUser": {
+                        "id": "5711a6c6c60e26455e0986c2",
+                        "externalId": null,
+                        "name": null
+                    },
+                    "initialEndUser": {
+                        "id": "75298119583971",
+                        "externalId": null,
+                        "name": null
+                    },
+                    "subject": "Conversation with test 1",
+                    "status": "closed",
+                    "via": {
+                        "map": {
+                            "channel": "native_messaging",
+                            "source": {
+                                "from": {},
+                                "to": {},
+                                "rel": null
+                            }
+                        },
+                        "empty": false
+                    },
+                    "assigneeId": "7352047575165"
+                },
+                "audits": [
+                    // ... audit entries ...
+                ]
+            },
+            "status": 200
+        },
+        {
+            "message": "Success",
+            "body": {
+                "metadata": {
+                    "id": "2",
+                    "conversationId": "ff16e5ff254006090e5e05fc2",
+                    "initialAppUser": {
+                        "id": "5711a6c6c60e26455e0986c3",
+                        "externalId": null,
+                        "name": null
+                    },
+                    "initialEndUser": {
+                        "id": "75298119583972",
+                        "externalId": null,
+                        "name": null
+                    },
+                    "subject": "Conversation with test 2",
+                    "status": "closed",
+                    "via": {
+                        "map": {
+                            "channel": "native_messaging",
+                            "source": {
+                                "from": {},
+                                "to": {},
+                                "rel": null
+                            }
+                        },
+                        "empty": false
+                    },
+                    "assigneeId": "7352047575166"
+                },
+                "audits": [
+                    // ... audit entries ...
+                ]
+            },
+            "status": 200
+        }
+        // ... 98 more tickets ...
+    ]
+}
